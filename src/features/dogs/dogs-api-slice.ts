@@ -5,7 +5,7 @@ interface Breed {
   name: string;
   reference_image_id: string;
 }
-//api slice caches the data for every unique combination of end point + query param
+//////////////////////////very important:---------------------api slice caches the data for every unique combination of end point + query param---------------------
 export const dogsApiSlice = createApi({
   //where are we keeping the data in the reducers
   reducerPath: "api",
